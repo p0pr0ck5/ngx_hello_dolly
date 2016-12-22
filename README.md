@@ -1,10 +1,10 @@
 ##Name
 
-ngx_hello_dolly - A simple Hello World clone that emulates the Hello Dolly WordPress plugin
+ngx_hello_dolly - A simple Hello World clone that emulates the Hello Dolly WordPress plugin.
 
 ## Status
 
-ngx_hello_dolly is stable and tested on Nginx 1.7.8.
+ngx_hello_dolly is stable and tested on Nginx 1.10.2.
 
 ## Description
 
@@ -32,7 +32,7 @@ Installation is the same as any other Nginx module. No additional configuration 
 
 ## Configuration
 
-Hello Dolly requires a single location configuration directive, `hello_dolly`, with no additional options. Requests that match the given location will receive a single line from Hello Dolly. Example:
+Hello Dolly requires a single location configuration directive, `hello_dolly`, with no additional options. Requests that match the given location will receive a single random line from Hello Dolly. Example:
 
 ```Nginx
 location /hello {
